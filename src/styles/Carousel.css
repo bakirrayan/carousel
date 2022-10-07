@@ -1,0 +1,34 @@
+.carousel {
+    width: 700px;
+    height: 700px;
+}
+
+.carousel .carouselInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselInner .left{
+    width: 5%;
+    height: auto;
+    place-items: center;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.carouselInner .center{
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+}
+
+.carouselInner .right{
+    width: 5%;
+    height: auto;
+    place-items: center;
+    cursor: pointer;
+    padding: 25px;
+}
